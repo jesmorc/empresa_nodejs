@@ -1,0 +1,49 @@
+extends layout
+
+block content
+	div.contenedorprincipal
+		header
+			h1 #{title}
+		section
+			div.contenedorinfo
+				div.info
+					h1 Lista de empresas
+					p 
+						| Futurum
+					p
+						| Fidesol
+					p
+						| Novasoft
+
+			div.contenedorsidebar
+				div#sidebar
+					h1 Añadir calificacion
+					p	Empresa
+					select#empresa
+						option Futurum
+						option Fidesol
+						option Novasoft
+					br
+					p	Nota
+					input(type="radio" name="nota" value='1')
+					input(type="radio" name="nota" value='2')
+					input(type="radio" name="nota" value='3')
+					input(type="radio" name="nota" value='4')
+					input(type="radio" name="nota" value='5')
+					br
+					p	Comentario
+					textarea#new-calification
+					a(id='add-new-calification', href='#') Añadir
+		section
+			div.contenedorinfo
+				div.info
+					h1 Añadir empresa
+					p	Nombre
+					textarea#new-company
+					br
+					br
+					a(id='add-new-company', href='#')	Añadir empresa
+		footer
+			div.contenedorpie
+				p 
+					| Jesús García Godoy
