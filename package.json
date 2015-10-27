@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "empresa_nodejs",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -9,5 +9,26 @@
     "express": "3.4.7",
     "jade": "*",
     "stylus": "*"
+  },
+  "description": "Aplicación en node.js para el Ejercicio 2 tema 2 de IV",
+  "main": "app.js",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-docco": "~0.4.0",
+    "docco": "~0.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesmorc/empresa_nodejs"
+  },
+  "keywords": [
+    "empresa",
+    "node.js",
+    "iv"
+  ],
+  "author": "jesmorc",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jesmorc/empresa_nodejs/issues"
   }
 }
